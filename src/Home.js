@@ -7,7 +7,7 @@ return(
 
     <div>
 
-        <p><strong>This is react!</strong> </p>
+        <p> This is react!  </p>
     </div>
     )
 }
