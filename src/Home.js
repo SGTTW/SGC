@@ -3,12 +3,14 @@ import reactDom from 'react-dom'
 
 
 function Home() {
-return(
+    return (
 
-    <div>
+        <div>
 
-        <p> This is react!  </p>
-    </div>
+            <p className="bg-primary"> is this bts?</p>
+
+            <h></h>
+        </div>
     )
 }
 
@@ -19,3 +21,4 @@ return(
 
 
 export default Home;
+
