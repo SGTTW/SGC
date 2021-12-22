@@ -1,5 +1,5 @@
 import React from 'react';
-import '../public/bootstrap.min.css';
+// import '../public/bootstrap.min.css';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,7 +8,7 @@ function App() {
     <div>
     <div className= "App">
 
-      <h3>Build Sign Up & Login   </h3>
+      <h3>Build Sign Up & Login UI </h3>
     </div>
     </div>
   );

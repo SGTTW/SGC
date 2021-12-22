@@ -7,9 +7,9 @@ function Home() {
 
         <div>
 
-            <p className="bg-primary"> is this bts?</p>
-
-            <h></h>
+            <p className="bg-warning"> is this  really bts?</p>
+            
+            <h2> header re oo</h2>
         </div>
     )
 }
