@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './Home';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-ReactDOM.render(
+ReactDOM.render(  
   <div>
     {/* <Home />,
     <React.StrictMode>
-      <App />
+      // <App />
     </React.StrictMode> */}
-    <Home />
+    <App />
   </div>,
   document.getElementById('root')
 
