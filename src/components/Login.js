@@ -1,19 +1,29 @@
 import React, { Component } from "react";
+import sg from "./sg.jpg";
 
+// import Form  from "react-bootstrap/Form";
 
-
-
-
-export default class Login extends Component {
+class Login extends Component {
 
     render() {
 
         return (
-            <div>
 
-                <h3>React Login Component </h3>
+
+            <div  >
+                <div id="main-container" className="d-grid">
+                    <div className="Form text-center">
+
+                        <img  src={sg} width='80'
+                            alt="sg" />
+                        <h3>Please sign in </h3>
+
+                    </div>
+                </div>
             </div>
 
         );
     }
 }
+
+export default Login;
