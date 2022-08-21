@@ -11,8 +11,10 @@ class Login extends Component {
         const { isPasswordShown } = this.state;
         this.setState({ isPasswordShown: !isPasswordShown });
     }
+
     render = () => {
         const { isPasswordShown } = this.state;
+
         return (
 
 
@@ -32,18 +34,46 @@ class Login extends Component {
 
                         </div>
                         <div className="wrap-input100 validate-input">
-                            <input controlId="sign-in-password" id="password" className=" position-relative  mb-3 border border-none" type={(isPasswordShown) ? "text" : "password"} size="lg" placeholder="Password" autoComplete="current password" />
-                            <i className="mx-3 my-1  fa fa-eye fa-1x password-icon text-muted " onClick={this.togglePasswordVisibility}> </i>
+                            <input
+                                controlId="sign-in-password"
+                                id="password"
+                                className=" position-relative  mb-3 border border-none"
+                                type={(isPasswordShown) ? "text" : "password"}
+                                size="lg"
+                                placeholder="Password"
+                                autoComplete="current password"
+                                name="pass"
+                            />
+                            <i
+                                className={`fa ${isPasswordShown ? "fa-eye-slash" : "fa-eye"} password-icon`}
+                                onClick={this.togglePasswordVisibility}
+                            />
+                        </div>
+                        <div >
+                            <a href="home.js" className="">forget password?</a>
                         </div>
                         <div>
-                            <input controlId="remember-me" type="checkbox" size="lg" className="mb-3" /> Remember me
+
+                            <input controlId="remember-me"
+                                type="checkbox" size="lg"
+                                className="mb-3 mt-3" /> Remember me
+
+
+
+
 
                         </div>
-                        <div className="d-grid">
+                        <div className="d-flex align-items-left justify-content-left">
                             <button href="https://www.sgttw.rf.gd" variant="primary" className="btn btn-primary mb-3" size="lg">
                                 Sign In please
 
                             </button>
+                        </div>
+                        <div>
+                            <hr></hr>
+                        </div>
+                        <div className="text-right">
+                            <p id="sign_up"><a href="">Sign up</a></p>
                         </div>
 
                         <p className="mt-5 text-muted">&copy; 2022</p>

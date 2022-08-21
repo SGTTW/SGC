@@ -9,7 +9,9 @@ export default class SignUp extends Component {
     render() {
 
         return (
-            <div> 
+            <div>
+                How to sign up and login
+
             </div>
 
         );
